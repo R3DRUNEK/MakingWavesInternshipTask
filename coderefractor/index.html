@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Refactoring</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js" defer></script>
+    </head>
+    <body>
+        <h1 class="largeBlackText">
+            Fix this ugly code!
+        </h1>
+        <p class="blackItalicParagraphText">
+           This page is full of lots of violations of the DRY principle (Don't Repeat Yourself) along with a number of other violations of HTML markup best practices.
+           <br/>
+           Your goal is to refactor the HTML, CSS and JavaScript on this page so that you have:
+           <pre> 1. a clear separation of concerns between HTML, CSS and JavaScript </pre>
+        </p>
+        <p class="blueHiderLinkThing" onclick="hidelist()">
+             Click Here to See Suggested Refactoring Path!
+        </p>
+        <ul class="list">
+           <li class="listitem">1. Refactor <span class="highlightedBlackText">inline styles</span> (into the head tag or an external stylesheet).</li>
+           <li class="listitem">2. Refactor <span class="highlightedBlackText">duplication</span> that exists in the inline style tags.</li>
+           <li class="listitem">3. Refactor <span class="highlightedBlackText">markup</span> to use appropriate html elements.</li>
+           <li class="listitem">4. Refactor <span class="highlightedBlackText">styles</span> to eliminate the property duplication.</li>
+           <li class="listitem">5. Refactor <span class="highlightedBlackText">javascript</span> to eliminate inline click handler.</li>
+        </ul> <br/>
+        <div class="note">
+            While there a number of tools available that can assist in making this refactoring easier I want to challenge you to do this refactor with nothing but your brain and a text editor.
+        </div>
+    </body>
+</html>
